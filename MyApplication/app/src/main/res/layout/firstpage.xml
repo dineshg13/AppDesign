@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:clickable="true">
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in with Facebook"
+        android:id="@+id/fbutton"
+        android:layout_weight="0.13"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#5912f4"
+        android:textSize="15dp"
+        android:textColorHighlight="#ffffff"
+        android:allowUndo="false" />
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in with Google"
+        android:id="@+id/button"
+        android:layout_weight="0.13"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#e81313" />
+
+</LinearLayout>
